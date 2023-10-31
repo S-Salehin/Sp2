@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    .nav1
+    {
+        background-color: rgb(66, 153, 207); ;
+    }
+.nav2
+{display: flex;
+    
+    background: rgb(51, 178, 255);
+    padding: 20px;
+}   
+.nav2 img
+{
+    height: 100px;
+} 
+.nav2 a
+{
+    color: black;
+    text-decoration: none;
+}
+.nav3{
+    width: 100%;
+    background-color: rgb(51, 178, 255);
+    text-align: center;
+
+    
+}
+.nav3 ul 
+{
+
+    display: inline-flex;
+    list-style: none;
+}
+.nav3 ul li
+{
+width: fit-content;
+margin: 15px;
+padding: 15px;
+}
+
+.nav3 ul li a
+{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+.nav3 ul li a:hover
+{
+width: fit-content;
+    background-color:  rgba(253, 253, 253, 0.993);
+}
+.nav3 ul li ul
+{
+    position: absolute;
+display: none;
+background-color: azure;
+border-radius: 0px 0px 5px 5px;
+}
+.nav3 ul li:hover ul{
+
+    display: block;
+}
+.nav3 ul li ul li
+{
+  
+width: fit-content;
+border-radius: 5px;
+padding: 6px;
+}
+.nav3 ul li ul li a
+{
+padding: 10px 16px;
+
+}
+.nav3 ul li ul li a:hover
+{
+    background-color: gray;
+
+}
+.nav4
+{
+   
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.nav4 h1
+{
+    text-align: center;
+}
+.nav4 h2
+{
+    margin-left: 60px;
+}
+.nav5
+{
+    background: rgb(66, 153, 207);
+padding: 65px;
+}
+.nav5 img{
+    height: 50px;
+}
+
+.nav6
+{
+    box-shadow: 5px 5px 5px 5px black;
+    width: 230px;
+    background: rgb(189, 231, 217);
+    margin-left: 50px;
+}
+.nav7
+{
+    box-shadow: 5px 5px 5px 5px black;
+    width: 230px;
+    background: wheat;
+    margin-left: 50px;
+}
+.nav8
+{
+    background: rgb(66, 153, 207);
+padding: 65px;
+
+}
+.nav8 img{
+    height: 50px;
+}
+.nav8 a{
+    text-decoration: none;
+    color: black;
+}

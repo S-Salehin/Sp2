@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    .nav1
+    {
+display: flex;
+justify-content: center;
+
+    }
+    .nav1 img
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .nav2
+    {
+        text-align: center;
+        background: saddlebrown;
+    }
+    .nav3
+    {
+        display: flex;
+        justify-content: center;
+        background: wheat;
+    }
+  
+    .nav4
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        
+    }
+    .nav5
+    {
+        box-shadow: 2px 2px 2px 2px black;
+       
+        
+    }
+    .nav6
+    {
+        display: flex;
+        justify-content: center;
+        background: wheat;
+    }
+    .nav6 img
+    {
+        height: 400px;
+        width: 850px;
+    }
+    .nav7
+{
+    height:200px;
+    background: rgb(184, 179, 179);
+}
+.nav7_item1
+{
+    justify-content: center;
+    display: flex;
+}
