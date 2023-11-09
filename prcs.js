@@ -65,7 +65,7 @@ const validateInputs = () => {
     }
 
     if(phoneValue === '') {
-        setError(password, 'Phone number is required');
+        setError(phone, 'Phone number is required');
     } else if (phoneValue.length < 12 ) {
         setError(phone, 'Enter a valid number.')
     } else {
